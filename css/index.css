@@ -1,0 +1,79 @@
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+  .header {
+    margin-bottom: 2rem;
+  }
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 56rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+
+/* 
+@media screen and (min-width: 48em) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 2rem;
+  }
+}*/
+
+/* CARDS */
+h4 {
+    font-size: 1.1rem;
+}
+.closeButton {
+  cursor: pointer;
+}
+
+/* Publicar anuncio --> imagen cargada */
+#imageHolder img{
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+/* Para hacer que los tooltips funcionen en un botón con clase disabled */
+a.btn.disabled, fieldset[disabled] a.btn {
+    pointer-events: auto;
+}
