@@ -1,0 +1,1 @@
+CREATE TABLE `anuntbew2020`.`anunturi` ( `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT , `titlu` VARCHAR(100) NOT NULL , `img` VARCHAR(255) NOT NULL , `timestamp` TIMESTAMP NOT NULL , `dataexpirare` DATE NOT NULL , `pret` DECIMAL(10,0) NOT NULL , `descriere` VARCHAR(340) NOT NULL , `user_id` INT(11) NOT NULL , `vandut` INT(11) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

@@ -1,0 +1,1 @@
+CREATE TABLE `anuntbew2020`.`favorite` ( `idanunt` INT(10) NOT NULL , `user_id` INT(10) NOT NULL ) ENGINE = InnoDB;
